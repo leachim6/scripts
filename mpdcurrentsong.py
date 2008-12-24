@@ -17,7 +17,7 @@ songartist += cs['artist']                  # Set songartist if the song has one
 
 FONT = "-*-helvetica-*-r-normal--34-*-*"    # Set the font (a big bold one that's clearly visible)
 
-COLOR = "#287D28"									          # Set the color (dark green)
+COLOR = "#287D28"									        # Set the color (Dark Gren)
 p = pyosd.osd(font=FONT, colour=COLOR)		  # init pyosd with the font and color
 p.display(songtitle  + songartist)          # Finally use Pyosd to display the song title
 
